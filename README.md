@@ -13,7 +13,7 @@ You have to explore a non-fully-displayed map. Enjoy this fun gaming experience!
 Availability
 ------------
 
-Touch Snake is available on [Google Play](https://play.google.com/store/apps/details?id=com.zimmisapps.touchsnake).
+Touch Snake is available for free on [Google Play](https://play.google.com/store/apps/details?id=com.zimmisapps.touchsnake).
 
 It is not available yet on the Apple App Store because we don't want to pay Apple $99/year for a few more downloads.
 If you are an iPhone developper and would like to help, contact us.
