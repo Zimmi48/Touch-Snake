@@ -1,7 +1,11 @@
-Touch-Snake
+Touch Snake
 ===========
 
+By [Zimmis' Apps](www.zimmisapps.com)
+
 A modern and touch-friendly version of the classic game of snake.
+
+[**Play on the web now**](http://touchsnake.zimmisapps.com) --- you can use the touch screen, mouse or left and right arrows.
 
 Full description
 ----------------
@@ -19,7 +23,8 @@ It is not available yet on the Apple App Store because we don't want to pay Appl
 If you are an iPhone developper and would like to help, contact us.
 Otherwise, you can also buy us an iPhone and give us an additional 100 bucks and we'll oblige.
 
-Touch Snake will soon be available as a web app for anyone to play, though.
+Touch Snake is also available as a
+[web app](http://touchsnake.zimmisapps.com) for anyone to play.
 
 License
 -------
