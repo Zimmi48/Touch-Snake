@@ -1,7 +1,7 @@
 Touch Snake
 ===========
 
-By [Zimmis' Apps](www.zimmisapps.com)
+By [Zimmis' Apps](http://www.zimmisapps.com)
 
 A modern and touch-friendly version of the classic game of snake.
 
