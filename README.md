@@ -29,12 +29,19 @@ Touch Snake is also available as a
 License
 -------
 
-Normally, we would publish this app under a copyleft license.
-But, because we have heard of the existing incompatibilities between app stores and the GNU GPL,
-we're not in a hurry to publish this as a free software (it's already a freeware).
-If you are interested in contributing, contact us and we'll pick a license so that it's possible
-for you to submit your changes.
-Meanwhile, the GitHub user policy still allows you to view and fork the code.
+Copyright 2014, Jules and Théo Zimmermann.
+
+This software is a **free software** available under the terms of the MPL 2.0 (Mozilla Public License 2.0).
+The text of the license is provided in the LICENSE.txt file.
+
+If you don't know what the MPL 2.0 is, then you should look at the
+[official FAQ](https://www.mozilla.org/MPL/2.0/FAQ.html).
+
+###Side note
+
+Given the existing incompatibilities between app stores policies
+and the GNU GPL it would not have been appropriate
+to publish this software under the GNU GPL license.
 
 Compilation
 -----------
