@@ -28,9 +28,6 @@ var load = (function() {
 	var myFoodInterval;
 	var helpStep = 0;
 	
-	// we show fullscreen ads only if the player has played once already
-	var hasPlayedOnce = 0;
-	
 	// PUBLIC FUNCTIONS
 	
 	// loading functions
@@ -69,18 +66,6 @@ var load = (function() {
 	};
 
 	load.game = function() {
-		
-		if (hasPlayedOnce) {
-			// show full screen ad
-			CocoonJS.Ad.showFullScreen();
-		}
-		else {
-			// preload ad banner for the pause mode
-			CocoonJS.Ad.preloadBanner();
-			CocoonJS.Ad.onBannerReady.addEventListener(function() {
-				CocoonJS.Ad.setBannerLayout(CocoonJS.Ad.BannerLayout.BOTTOM_CENTER);
-			});
-		}
 		
 		game.initSnake(0, 0, 0, 1);
 		game.initFood();
@@ -121,17 +106,12 @@ var load = (function() {
 		
 		display.setState("game over", "scores", "gray");
 		display.scores(final_score, best_scores);
-		
-		// preload fullscreen ad to show before replay
-		CocoonJS.Ad.preloadFullScreen();
-		hasPlayedOnce = 1;
 	};
 	
 	load.pause = function() {
 		unloadGameMechanics();
 		display.setState("pause", "pause", "gray");
 		display.pause();
-		CocoonJS.Ad.showBanner();
 	};
 	
 	// unloading functions
@@ -145,13 +125,11 @@ var load = (function() {
 	
 	load.unloadGame = function() {
 		unloadGameMechanics();
-		CocoonJS.Ad.hideBanner();
 		display.setState("unactive", "game");
 	};
 	
 	load.unloadPause = function() {
 		// unloading pause means resuming the game
-		CocoonJS.Ad.hideBanner();
 		loadGameMechanics();
 	};
 	
